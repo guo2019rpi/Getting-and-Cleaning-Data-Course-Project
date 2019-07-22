@@ -24,7 +24,7 @@ dataSet : at the end of this step, dataSet will only contain mean and std variab
 Group the activity column of dataSet as "group_activity", then rename each levels with 2nd column of activity_levels. Finally apply the renamed "group" to dataSet's activity column.
 
     
-## 4. Changing Column label of dataSet
+## 4. Changing column label of dataSet
 Creat a clean names: features2 byt getting rid of "()", and replace a few characters, then combine "subject',"activity" and features2 c("subject","activity",features2[MeanStdOnly]), use this character vector to change the name of dataSet.
 
 
